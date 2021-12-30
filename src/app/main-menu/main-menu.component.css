@@ -36,7 +36,8 @@ div h1{
   .first
   {
     width: 50%;
-    margin: 0px;
+    margin-left: 10px;
+
     font-size: 11px;
   }
   button{
@@ -47,6 +48,9 @@ font-size: 11px;
 }
 .radio_div{
   margin-top: 40px;
+}
+.contain1{
+  width:auto;
 }
 
   }
