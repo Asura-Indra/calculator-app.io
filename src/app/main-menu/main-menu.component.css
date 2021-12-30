@@ -1,0 +1,52 @@
+h1{
+  color: #f44336;
+margin-top: 80px;
+font-size:50px;
+font-family:Arial;
+text-align: center;
+}
+
+.radio_div{
+  display: block;
+  color: rgb(255, 255, 255);
+  height: 50px;
+  width: 600px;
+  margin-top: 80px;
+  font-size: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.radio_button{
+  margin-top: 20px;
+margin-left: 40px;
+}
+
+.btn1{
+width: 80px;
+margin-top: 30px;
+margin-left: 240px;
+}
+
+@media screen and (max-width: 500px) {
+
+div h1{
+  font-size:25px;
+  margin: 0px;
+}
+
+  .first
+  {
+    width: 50%;
+    margin: 0px;
+    font-size: 11px;
+  }
+  button{
+font-size: 11px;
+}
+.btn1{
+  margin-left: 100px;
+}
+.radio_div{
+  margin-top: 40px;
+}
+
+  }

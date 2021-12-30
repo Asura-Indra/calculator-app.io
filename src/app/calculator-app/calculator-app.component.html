@@ -1,0 +1,46 @@
+<div class="container main_contain" >
+  <div>
+   <textarea class="input1" disabled [(ngModel)]="input"></textarea>
+   <input type="text" disabled class="input2" [(ngModel)]="result" >
+  </div>
+  <div class="container-fluid grid1">
+    <div class="row">
+      <div class="col"> <button type="button" class="btn btn-light btn1" (click)="numKey('1')">1</button></div>
+      <div class="col"> <button type="button" class="btn btn-light btn1" (click)="numKey('2')">2</button></div>
+      <div class="col"> <button type="button" class="btn btn-light btn1"(click)="numKey('3')">3</button></div>
+      <div class="col"> <button type="button" class="btn btn-light btn1 btn2" (click)="allClear()">AC</button></div>
+   </div>
+   <br>
+   <div class="row">
+    <div class="col"> <button type="button" class="btn btn-light btn1" (click)="numKey('4')">4</button></div>
+    <div class="col"> <button type="button" class="btn btn-light btn1" (click)="numKey('5')">5</button></div>
+    <div class="col"> <button type="button" class="btn btn-light btn1" (click)="numKey('6')">6</button></div>
+    <div class="col"> <button type="button" class="btn btn-light btn1 btn2"(click)="operatorKey('/')">&divide;</button></div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col"> <button type="button" class="btn btn-light btn1"(click)="numKey('7')">7</button></div>
+    <div class="col"> <button type="button" class="btn btn-light btn1"(click)="numKey('8')">8</button></div>
+    <div class="col"> <button type="button" class="btn btn-light btn1" (click)="numKey('9')">9</button></div>
+    <div class="col"> <button type="button" class="btn btn-light btn1 btn2" (click)="operatorKey('*')">&#215;</button></div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col"> <button type="button" class="btn btn-light btn1" (click)="numKey('0')">0</button></div>
+    <div class="col"> <button type="button" class="btn btn-light btn1" (click)="decimalKey('.')">.</button></div>
+    <div class="col"><button type="button" class="btn btn-light btn1" (click)="operatorKey('-')">-</button> </div>
+    <div class="col"> <button type="button" class="btn btn-light btn1 btn2" (click)="operatorKey('+')">+ </button></div>
+  </div>
+  <br>
+
+  <div class="row">
+<div class="col"> </div>
+<div class="col"> <button type="button" class="btn btn-light btn1 btn3"(click)="Arithmatic()" >=</button></div>
+<div class="col"> </div>
+ <div class="col"> </div>
+  </div>
+  </div>
+
+  </div>
+
+

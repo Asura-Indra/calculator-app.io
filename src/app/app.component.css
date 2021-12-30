@@ -1,0 +1,9 @@
+.main_contain
+{
+  margin-top: 250px;
+}
+
+@media screen and (max-width: 500px) {
+  .main_contain{
+margin-top: 150px;  }
+}
