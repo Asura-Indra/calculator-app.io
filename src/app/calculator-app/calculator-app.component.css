@@ -60,7 +60,7 @@ margin-top: 15px;
 border-radius: 10px;
 width: 60px;
 height: 50px;
-font-size:19px;
+font-size:22px;
 font-weight: bold;
 border-style: solid;
 border-color: rgb(85, 76, 76);
@@ -72,6 +72,27 @@ background-color: rgb(70, 69, 69);
   color: beige;
   background-clip: padding-box;
   border-color: rgb(52, 53, 53);
+}
+.btn2{
+  font-size: 35px;
+text-align: center;
+padding-top: 0%;
+align-items: center;
+color:white;
+background-color: rgb(219, 138, 31);
+font-weight: bold;
+}
+.btn2:hover{
+  color:rgb(219, 138, 31) ;
+}
+.btn4{
+  background-color: #bd2c16;
+  border-color: #6d2115;
+  border:2px;
+  font-size: 25px;
+}
+.btn4:hover{
+  color:#bd2c16
 }
 .btn3{
   width: 70px;
