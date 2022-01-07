@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CalculatorAppComponent } from './calculator-app/calculator-app.component';
 import { MainMenuComponent } from './main-menu/main-menu.component';
+import { CustomButtonDirective } from './custom-button.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     CalculatorAppComponent,
-    MainMenuComponent
+    MainMenuComponent,
+    CustomButtonDirective
   ],
   imports: [
     BrowserModule,

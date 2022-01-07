@@ -1,6 +1,7 @@
 .main_contain
 {
   margin-top: 250px;
+  height: auto;
 }
 
 @media screen and (max-width: 500px) {

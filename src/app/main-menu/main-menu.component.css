@@ -1,23 +1,25 @@
 h1{
   color: #f44336;
 margin-top: 80px;
-font-size:50px;
-font-family:Arial;
+font-size:45px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 text-align: center;
+font-weight: bold;
 }
 
 .radio_div{
   display: block;
-  color: rgb(255, 255, 255);
+  color:beige;
+  ;
   height: 50px;
   width: 600px;
-  margin-top: 80px;
+  margin-top: 70px;
   font-size: 20px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serifto;
 }
 .radio_button{
   margin-top: 20px;
-margin-left: 40px;
+margin-left: 50px;
 }
 
 .btn1{
